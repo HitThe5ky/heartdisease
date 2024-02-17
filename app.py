@@ -69,39 +69,13 @@ def main():
     
     st.markdown("***")
     
-    st.markdown("""
-    
-    Sample data to fill: 
-    
-        52 1 2 172 199 1 1 162 0 0.5 2 0 3	  => Person has Heart Disease """)
-    
-    st.markdown("""
-    
-    About the data to be filled (all data is in numeric form without units) : 
-        
-        1. age (in numbers)
-        2. sex (0 : female, 1 : male)
-        3. chest pain type (4 values : 0-3)
-        4. Resting blood pressure (numeric only)
-        5. Serum Cholestoral in mg/dl
-        6. Fasting blood sugar > 120 mg/dl
-        7. Resting electrocardiographic results (values 0,1,2)
-        8. Maximum heart rate achieved
-        9. Exercise induced angina
-        10. Oldpeak = ST depression induced by exercise relative to rest
-        11. The slope of the peak exercise ST segment
-        12. Number of major vessels (0-3) colored by flourosopy
-        13. Thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
-        
-        Output : Either Heart Disease is present of not (0 or 1)""")
-    
     st.text("\n\n")
 #    st.markdown("<h3 style='text-align: center; color: red;'> Model accuracy is   </h3>", unsafe_allow_html=True)    
     
     st.write(" \n\n\n\n")
     st.markdown("******")
     
-    st.write("Contributor : [Ankit Nainwal](https://github.com/nano-bot01) \n [LinkedIn](https://www.linkedin.com/in/ankit-nainwal1/)")
+    st.write("Contributor : [Vishank Goel & Sai Vaibhav](https://github.com/HitThe5ky)")
     
     st.write("\n© 2023 Heart Disease Prediction System. All rights reserved.")
 if __name__ == '__main__':
